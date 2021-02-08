@@ -5,7 +5,7 @@ import shutil
 import SD4_Lab2
 import os
 from glob import glob
-import site 
+import site
 
 
 setup(
@@ -17,6 +17,7 @@ setup(
 	author_email = "t3s@ecam.be",
 	include_package_data = True,
 	packages = ['SD4_Lab2'],
+	packages=find_packages(),
 	package_data = {
 	'' : ['*.bit','*.tcl','*.py'],
 	},
