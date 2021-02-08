@@ -18,7 +18,8 @@ setup(
 	include_package_data = True,
 	packages=find_packages(),
 	package_data = {
-	'' : ['*.bit','*.tcl','*.py'],
+	'' : ['*.py'],
+	'bitstreams': ['*.bit','*.tcl'] :
 	},
 	data_files = [(os.path.join('/home/xilinx/jupyter_notebooks/SD4_Lab2',root.replace('notebooks/','')), [os.path.join(root, f) for f in files]) for root, dirs, files in os.walk('notebooks/')],
 	description = "PYNQ-Z2 labs using a hardware accelerated "
