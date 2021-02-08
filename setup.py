@@ -16,7 +16,6 @@ setup(
 	author = "SD4_Lab2",
 	author_email = "t3s@ecam.be",
 	include_package_data = True,
-	packages = ['SD4_Lab2'],
 	packages=find_packages(),
 	package_data = {
 	'' : ['*.bit','*.tcl','*.py'],
