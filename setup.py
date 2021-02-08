@@ -10,7 +10,7 @@ import site
 
 setup(
 	name = "SD4_Lab2",
-	version = E_Elements_labs.__version__,
+	version = SD4_Lab2.__version__,
 	url = 'pynq',
 	license = 'Software License',
 	author = "SD4_Lab2",
